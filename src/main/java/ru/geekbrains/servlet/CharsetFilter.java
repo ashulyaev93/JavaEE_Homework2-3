@@ -9,7 +9,7 @@ public class CharsetFilter implements Filter {
     private String encoding;
 
     public void init(FilterConfig config) throws ServletException {
-        // читаем из конфигурации
+        // читаем из конфигурации;
         encoding = config.getInitParameter("requestEncoding");
 
         // если не установлена — устанавливаем UTF-8

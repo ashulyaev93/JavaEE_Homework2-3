@@ -12,7 +12,7 @@ public class Product implements Servlet{
     private static Logger logger = LoggerFactory.getLogger(Product.class);
     private transient ServletConfig config;
 
-    // Метод вызывается контейнером после того как был создан класс сервлета
+    // Метод вызывается контейнером после того как был создан класс сервлета;
     @Override
     public void init (ServletConfig config) throws ServletException {
 

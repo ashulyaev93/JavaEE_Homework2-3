@@ -48,7 +48,7 @@ public class Main extends HttpServlet implements Servlet {
         return "Main" ;
     }
 
-    // При завершении работы веб приложения,контейнер вызывает этот метод для всех сервлетовиз этого приложения
+    // При завершении работы веб приложения,контейнер вызывает этот метод для всех сервлетовиз этого приложения;
     @Override
     public void destroy () {
         logger.info( "Servlet {} destroyed" , getServletInfo());
